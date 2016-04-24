@@ -21,7 +21,7 @@ Plots
 
 
 ![plot of chunk PLOT](pitch-figure/PLOT-1.png) 
-All chunks codes are in [GitHub][2]  
+All chunks codes are on [GitHub][2]  
 [2]:http://github.com/lelayj/DATAPRODUCT  
 ***
 ![plot of chunk ZOOM](pitch-figure/ZOOM-1.png) 

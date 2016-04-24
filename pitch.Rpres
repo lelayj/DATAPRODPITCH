@@ -98,7 +98,7 @@ FUN_PZ <- function(sr, fc, type){
 ```{r PLOT, echo=FALSE}
 FUN_PZ(s1s2, fc,  "PLOT")
 ```
-All chunks codes are in [GitHub][2]  
+All chunks codes are on [GitHub][2]  
 [2]:http://github.com/lelayj/DATAPRODUCT  
 ***
 ```{r ZOOM, echo=FALSE}
