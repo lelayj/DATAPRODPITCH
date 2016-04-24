@@ -10,7 +10,7 @@ The app Forecasting displays on the same plot the forecasts made by 7 different 
 and a period used to forecast (training set) (these are consecutive) through 3 sliders.  
 Four methods, namely Mean, Naive, Drift and Seasonal naive are simple methods used as benchmarks.  
 Thus, the other three Exponential smoothing, Multiple regression and Simple regression are compared to these so as to see whether they are doing better or not.   
-If you choose the time series [retail_turnover][1], a test set from  1989.75 to 1991.5, and a training set starting from  1983, then you will get, under the tabs PLOT and ZOOM:  
+If you choose the time series [retail_turnover][1], a test set from  1989.75 to 1991.5, and a training set starting from  1983, then you will get, under the tabs FORECASTS and ZOOM:  
 [1]:https://datamarket.com/data/set/22n7/quarterly-retail-turnover-m-current-jun-1982-dec-1991#!ds=22n7&display=line  
 
 Plots
@@ -98,7 +98,7 @@ FUN_PZ <- function(sr, fc, type){
 ```{r PLOT, echo=FALSE}
 FUN_PZ(s1s2, fc,  "PLOT")
 ```
-All chunks codes are in [GitHub][2]  
+All chunks codes are on [GitHub][2]  
 [2]:http://github.com/lelayj/DATAPRODUCT  
 ***
 ```{r ZOOM, echo=FALSE}
